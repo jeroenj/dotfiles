@@ -1,0 +1,4 @@
+[commit]
+	verbose = true
+[include]
+	path = ~/.gitconfig-private
