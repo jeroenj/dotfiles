@@ -1,0 +1,32 @@
+[apply]
+	whitespace = fix
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+[color "branch"]
+	current = green reverse
+[commit]
+	verbose = true
+[core]
+	autocrlf = false
+	editor = nvim
+	whitespace = trailing-space,space-before-tab
+[diff]
+	colorMoved = 1
+	compactionHeuristic = 1
+[merge]
+	conflictstyle = diff3
+[protocol]
+	version = 2
+[push]
+	default = upstream
+[user]
+  useconfigonly = true
+[include]
+	path = ~/.config/git/config-private
