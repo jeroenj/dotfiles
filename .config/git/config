@@ -20,6 +20,7 @@
 [diff]
 	colorMoved = 1
 	compactionHeuristic = 1
+	wsErrorHighlight = all
 [merge]
 	conflictstyle = diff3
 [protocol]
