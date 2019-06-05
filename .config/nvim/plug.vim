@@ -1,12 +1,10 @@
 call plug#begin('~/.local/share/nvim/plug')
 
 Plug 'airblade/vim-gitgutter'
-Plug 'christoomey/vim-tmux-runner'
 Plug 'dracula/vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'fatih/vim-go'
-Plug 'gabebw/vim-spec-runner'
 Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'kchmck/vim-coffee-script'
