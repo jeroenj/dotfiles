@@ -97,6 +97,9 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep --smart-case --hidden'
 endif
 
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
+
 " Save files with sudo
 cmap w!! w !sudo tee > /dev/null %
 
