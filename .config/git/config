@@ -28,6 +28,6 @@
 [push]
 	default = upstream
 [user]
-  useconfigonly = true
+	useconfigonly = true
 [include]
 	path = ~/.config/git/config-private
