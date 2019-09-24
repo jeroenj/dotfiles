@@ -1,3 +1,5 @@
+[alias]
+	undo = reset HEAD~1
 [apply]
 	whitespace = fix
 [branch]
