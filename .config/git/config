@@ -23,6 +23,8 @@
 	colorMoved = 1
 	compactionHeuristic = 1
 	wsErrorHighlight = all
+[fetch]
+	prune = true
 [merge]
 	conflictstyle = diff3
 [protocol]
