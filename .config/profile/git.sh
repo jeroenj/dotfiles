@@ -1,0 +1,11 @@
+alias gb='git branch'
+alias gba='git branch --all'
+alias gc='git commit'
+alias gf='git fetch --prune origin'
+alias gl='git pull'
+alias gp='git push'
+alias gpf='git push --force-with-lease'
+alias gpmr='git push origin --set-upstream HEAD --push-option=merge_request.create --push-option=merge_request.remove_source_branch'
+alias gst='git status --short --branch'
+
+alias ts='tig status'
