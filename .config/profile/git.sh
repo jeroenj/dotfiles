@@ -1,6 +1,7 @@
 alias gb='git branch'
 alias gba='git branch --all'
 alias gc='git commit'
+alias gco='git checkout'
 alias gcp='git cherry-pick --ff'
 alias gf='git fetch --prune origin'
 alias gl='git pull'
