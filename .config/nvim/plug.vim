@@ -6,8 +6,11 @@ Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'fatih/vim-go'
 Plug 'godlygeek/tabular'
-Plug '/usr/bin/fzf'
-Plug 'junegunn/fzf.vim'
+if has('mac')
+  Plug '/usr/local/opt/fzf'
+else
+  Plug '/usr/bin/fzf'
+endif
 Plug 'hashivim/vim-terraform'
 Plug 'kchmck/vim-coffee-script'
 Plug 'mileszs/ack.vim'
