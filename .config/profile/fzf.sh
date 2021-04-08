@@ -1,4 +1,4 @@
-export FZF_DEFAULT_COMMAND='ag --hidden --filename-pattern ""'
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git --filename-pattern ""'
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
   source '/usr/share/fzf/key-bindings.zsh'
