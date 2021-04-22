@@ -1,5 +1,7 @@
 set shell=/bin/bash
 
+set clipboard=unnamed
+
 syntax on
 set number
 set relativenumber
