@@ -1,0 +1,4 @@
+.chef/local-mode-cache
+node_modules
+log
+tmp
