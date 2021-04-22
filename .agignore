@@ -1,4 +1,5 @@
 .chef/local-mode-cache
+.git
 node_modules
 log
 tmp
