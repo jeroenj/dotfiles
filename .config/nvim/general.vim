@@ -96,7 +96,7 @@ set updatetime=750
 let g:ackhighlight = 1
 let g:ack_use_cword_for_empty_search = 1
 if executable('ag')
-  let g:ackprg = 'ag --vimgrep --smart-case --hidden'
+  let g:ackprg = 'ag --vimgrep --smart-case --hidden --skip-vcs-ignores'
 endif
 
 let g:terraform_align=1
