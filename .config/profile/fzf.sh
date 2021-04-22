@@ -1,4 +1,4 @@
-export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git --filename-pattern ""'
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git --skip-vcs-ignores --filename-pattern ""'
 export FZF_DEFAULT_OPTS="--no-mouse"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
