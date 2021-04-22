@@ -108,6 +108,6 @@ cmap w!! w !sudo tee > /dev/null %
 " Allow files to be modified when hidden
 set hidden
 
-au BufRead,BufNewFile Berksfile,Capfile,Guardfile,UserGemfile set filetype=ruby
+au BufRead,BufNewFile Berksfile,Brewfile,Capfile,Guardfile,UserGemfile set filetype=ruby
 au BufRead,BufNewFile Procfile,Procfile.dev set filetype=yaml
 au BufNewFile,BufRead *.srt setf srt
