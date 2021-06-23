@@ -1,5 +1,6 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
   export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+  export BROWSER="open"
 fi
 
 export EDITOR="nvim"
