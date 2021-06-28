@@ -5,3 +5,5 @@ function kubectl() {
 
   command kubectl "$@"
 }
+
+export PATH="${PATH}:${HOME}/.krew/bin"
