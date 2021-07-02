@@ -14,3 +14,8 @@ function sc() {
     echo "Not in a Rails project"
   fi
 }
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  source /usr/local/opt/chruby/share/chruby/chruby.sh
+  source /usr/local/opt/chruby/share/chruby/auto.sh
+fi
