@@ -4,11 +4,11 @@ alias pairstop='tmux detach -a && tmux rename main'
 function tmux-update-statusbar() {
   if [ `tmux list-clients | grep '' -c` -gt 1 ]
   then
-    color='red'
+    color='red,bright'
   else
-    color='black'
+    color='colour244'
   fi
-  tmux set -q status-left "#[fg=$color]#S:"
+  tmux set -ag status-left-style "fg=$color"
 }
 
 if [ -n "$TMUX" ] ; then
