@@ -2,6 +2,7 @@ autoload compinit && compinit
 autoload bashcompinit && bashcompinit
 
 setopt AUTO_CD
+setopt CORRECT
 setopt EMACS
 setopt INTERACTIVE_COMMENTS
 setopt LONG_LIST_JOBS
