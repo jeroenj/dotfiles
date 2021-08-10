@@ -1,3 +1,4 @@
+autoload add-zsh-hook
 autoload compinit && compinit
 autoload bashcompinit && bashcompinit
 
