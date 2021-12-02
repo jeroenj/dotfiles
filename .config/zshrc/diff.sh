@@ -1,1 +1,3 @@
-alias diff="diff --color"
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+  alias diff="diff --color"
+fi
