@@ -1,0 +1,2 @@
+--output "%(series)s S%(season_number)02dE%(episode_number)02d %(title)s.%(ext)s"
+--netrc
