@@ -1,3 +1,7 @@
+# Setup:
+# * create `pair` user with `/home/pair` homedir and no password
+# * create authorized keys per external user with the following options: `command="/usr/bin/tmux -S /tmp/tmux-1000/default attach -t pair",no-port-forwarding,no-x11-forwarding,no-agent-forwarding`
+
 function pair {
   if [[ "$OSTYPE" != "linux-gnu" ]]; then
     echo "Only Linux is supported." 1>&2
