@@ -14,6 +14,7 @@ endif
 Plug 'hashivim/vim-terraform'
 Plug 'kchmck/vim-coffee-script'
 Plug 'mileszs/ack.vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'ojroques/vim-oscyank'
 Plug 'pangloss/vim-javascript'
 Plug 'rhysd/vim-crystal'

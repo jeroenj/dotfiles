@@ -112,3 +112,12 @@ set hidden
 au BufRead,BufNewFile Berksfile,Brewfile,Capfile,Guardfile,UserGemfile set filetype=ruby
 au BufRead,BufNewFile Procfile,Procfile.dev set filetype=yaml
 au BufNewFile,BufRead *.srt setf srt
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained",
+  highlight = {
+    enable = true,
+  },
+}
+EOF
