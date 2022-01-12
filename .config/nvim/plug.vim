@@ -1,6 +1,7 @@
 call plug#begin('~/.local/share/nvim/plug')
 
 Plug 'airblade/vim-gitgutter'
+Plug 'dense-analysis/ale'
 Plug 'dracula/vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
@@ -28,7 +29,6 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
-Plug 'w0rp/ale'
 Plug 'wesQ3/vim-windowswap'
 Plug 'yaymukund/vim-rabl'
 
