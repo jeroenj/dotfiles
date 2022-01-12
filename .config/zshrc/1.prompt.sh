@@ -22,4 +22,4 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 local return_status="%(?:%{$fg_bold[green]%}$:%{$fg_bold[red]%}$)"
 
 setopt PROMPT_SUBST
-PROMPT='${return_status} %{$fg[cyan]%}%~%f%{$reset_color%}${vcs_info_msg_0_}%{$reset_color%} '
+PROMPT='${return_status} %(!.%{$fg_bold[green]%}root .)%{$fg[cyan]%}%~%f%{$reset_color%}${vcs_info_msg_0_}%{$reset_color%} '
