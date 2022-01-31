@@ -1,0 +1,1 @@
+export WATCH_INTERVAL=1
