@@ -111,6 +111,7 @@ set hidden
 
 au BufRead,BufNewFile Berksfile,Brewfile,Capfile,Guardfile,UserGemfile set filetype=ruby
 au BufRead,BufNewFile Procfile,Procfile.dev set filetype=yaml
+au BufNewFile,BufRead ?\+.tftpl exe "doau filetypedetect BufRead " . fnameescape(expand("<afile>:r"))
 
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
