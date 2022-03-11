@@ -1,6 +1,4 @@
 autoload add-zsh-hook
-autoload compinit && compinit
-autoload bashcompinit && bashcompinit
 
 setopt AUTO_CD
 setopt CORRECT
