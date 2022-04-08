@@ -8,7 +8,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'fatih/vim-go'
 Plug 'godlygeek/tabular'
 if has('mac')
-  Plug '/usr/local/opt/fzf'
+  Plug '/opt/homebrew/opt/fzf'
 else
   Plug '/usr/bin/fzf'
 endif

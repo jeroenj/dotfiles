@@ -1,3 +1,3 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
+  [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && source /opt/homebrew/etc/profile.d/autojump.sh
 fi
