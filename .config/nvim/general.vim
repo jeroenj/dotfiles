@@ -33,10 +33,6 @@ set hlsearch incsearch
 
 let mapleader=","
 
-" Use ack instead of grep
-set grepprg=ack
-let g:grep_cmd_opts = '--noheading'
-
 " Open new split panes to right and bottom
 set splitbelow
 set splitright
