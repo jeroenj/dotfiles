@@ -1,4 +1,4 @@
-export FZF_DEFAULT_COMMAND='ag --hidden --skip-vcs-ignores --filename-pattern "" --ignore .terraform/'
+export FZF_DEFAULT_COMMAND='rg --hidden --files --no-ignore-vcs --glob="!.terraform/" --glob="!.git"'
 export FZF_DEFAULT_OPTS="--no-mouse"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
