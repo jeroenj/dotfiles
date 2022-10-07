@@ -37,6 +37,8 @@
 	rebase = true
 [push]
 	default = upstream
+[rebase]
+	updateRefs = true
 [user]
 	useconfigonly = true
 [include]
