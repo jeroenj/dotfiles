@@ -17,10 +17,12 @@ function pair {
     sudo chmod 777 /tmp/tmux-1000
     sudo chmod 777 /tmp/tmux-1000/default
     sudo usermod -s /usr/bin/zsh pair
+    tmux server-access -a pair
     tmux rename-session pair
     echo "pair mode enabled"
   elif [[ "$1" == "off" ]]; then
     tmux rename-session main
+    tmux server-access -d pair
     tmux detach-client -a
     sudo usermod -s /usr/sbin/nologin pair
     # sudo killall -vu pair -HUP # TODO: iss this really needed?
