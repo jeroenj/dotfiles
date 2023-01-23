@@ -14,6 +14,7 @@
 [color "branch"]
 	current = green reverse
 [commit]
+	gpgsign = true
 	verbose = true
 [core]
 	autocrlf = false
@@ -25,6 +26,8 @@
 	wsErrorHighlight = all
 [fetch]
 	prune = true
+[gpg]
+	format = ssh
 [help]
 	autocorrect = prompt
 [init]
