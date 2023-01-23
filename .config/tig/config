@@ -1,1 +1,3 @@
+set diff-options = --show-signature
+set log-options = --show-signature
 set vertical-split = false
