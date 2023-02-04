@@ -66,6 +66,7 @@ let g:ale_lint_delay = 500
 let g:ale_sign_error = '!!'
 let g:ale_sign_warning = '..'
 let g:ale_ruby_brakeman_options = '--only-files %s'
+let g:ale_yaml_yamllint_options = '--config-data relaxed'
 
 fun! <SID>StripTrailingWhitespaces()
   if exists('b:noStripWhitespace')
