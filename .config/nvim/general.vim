@@ -11,6 +11,8 @@ autocmd InsertLeave * :set relativenumber
 au FocusLost * :set norelativenumber
 au FocusGained * :set relativenumber
 
+set mouse=
+
 let g:dracula_colorterm = 0
 color dracula
 
