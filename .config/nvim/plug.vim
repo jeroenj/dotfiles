@@ -4,7 +4,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'dense-analysis/ale'
 Plug 'dracula/vim'
 Plug 'easymotion/vim-easymotion'
-Plug 'editorconfig/editorconfig-vim'
 Plug 'fatih/vim-go'
 Plug 'godlygeek/tabular'
 if has('mac')
