@@ -1,7 +1,6 @@
 set shell=/bin/bash
 
 set clipboard=unnamed
-autocmd TextYankPost * if v:event.operator is 'y' && v:event.regname is '' | OSCYankReg " | endif
 
 syntax on
 set number
