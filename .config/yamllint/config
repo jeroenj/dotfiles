@@ -1,0 +1,14 @@
+extends: default
+rules:
+  braces:
+    forbid: non-empty
+  comments:
+    min-spaces-from-content: 1
+  document-start: disable
+  empty-values: enable
+  indentation:
+    indent-sequences: consistent
+  line-length: disable
+  quoted-strings:
+    level: warning
+    required: only-when-needed
