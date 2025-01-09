@@ -2,7 +2,7 @@ call plug#begin('~/.local/share/nvim/plug')
 
 Plug 'airblade/vim-gitgutter'
 Plug 'dense-analysis/ale'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'Mofiqul/dracula.nvim', { 'as': 'dracula' }
 Plug 'easymotion/vim-easymotion'
 Plug 'godlygeek/tabular'
 if has('mac')
@@ -12,7 +12,7 @@ else
 endif
 Plug 'hashivim/vim-terraform'
 Plug 'mileszs/ack.vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'ojroques/vim-oscyank'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/nerdtree'

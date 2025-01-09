@@ -12,8 +12,13 @@ au FocusGained * :set relativenumber
 
 set mouse=
 
-let g:dracula_colorterm = 0
-color dracula
+lua <<EOF
+local dracula = require("dracula")
+dracula.setup({
+  transparent_bg = true
+})
+EOF
+colorscheme dracula
 
 if $TERM == "xterm-256color"
   set t_Co=256
